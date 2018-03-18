@@ -4,9 +4,9 @@
 
 * install jenkins on host
 
-* `docker network create -d bridge staging`
+* run `docker network create -d bridge staging`
 
-* `docker run -d --hostname rabbitmq --name rabbitmq --network staging rabbitmq:latest`
+* run `docker run -d --hostname rabbitmq --name rabbitmq --network staging rabbitmq:latest`
 
 * add a global shared library to jenkins 
   * `https://jenkins.io/doc/book/pipeline/shared-libraries/#global-shared-libraries`
@@ -15,7 +15,7 @@
 * point jenkins to repositories
 
 * send HTTP POST requests to `localhost:8081`
- * request body `{ "phrase": "your text" }`
- * request header `Content-Type: application/json`
+  * request body `{ "phrase": "your text" }`
+  * request header `Content-Type: application/json`
 
 * tail log of service-a with `docker logs -f service-a` to see incoming messages get stored in DB
