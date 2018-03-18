@@ -21,3 +21,5 @@
   * request header `Content-Type: application/json`
 
 * tail log of service-a with `docker logs -f service-a` to see incoming messages get stored in DB
+
+* run `docker images` to see build artefacts
