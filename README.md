@@ -13,3 +13,9 @@
   * point to `https://github.com/uni-10yg/deployment-pipeline`
 
 * point jenkins to repositories
+
+* send HTTP POST requests to `localhost:8081`
+ * request body `{ "phrase": "your text" }`
+ * request header `Content-Type: application/json`
+
+* tail log of service-a with `docker logs -f service-a` to see incoming messages get stored in DB
