@@ -10,8 +10,7 @@
 
 * add a global shared library to jenkins 
   * `https://jenkins.io/doc/book/pipeline/shared-libraries/#global-shared-libraries`
-  * point to `https://github.com/uni-10yg/deployment-pipeline`
-  * tick `Load implicitly` and set `Default version` to `master`
+  * see `global_pipeline_libs.png` for more details
 
 * point jenkins to repositories
 
