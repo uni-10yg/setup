@@ -14,6 +14,8 @@
 
 * point jenkins to repositories
 
+* run builds
+
 * send HTTP POST requests to `localhost:8081`
   * request body `{ "phrase": "your text" }`
   * request header `Content-Type: application/json`
